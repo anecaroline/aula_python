@@ -1,0 +1,8 @@
+﻿algo = input("Digite alguma coisa:")
+print("O tipo primitivo desse valor é :",type(algo))
+print("É um número",algo.isnumeric())
+print("É alfabetico",algo.isalpha())
+print("É alfanumerico:",algo.isalnum())
+print("Está em maiuscula :",algo.isupper())
+print("Está em minuscula :",algo.islower())
+print("Está capitalizada :",algo.istitle())
